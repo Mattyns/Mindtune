@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor0: #8C2949;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+div {
+    width:max-content;
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+div#logo > img {
+    width: 80px;
+    
+
+}
+
+h1 {
+    color: var(--cor0);
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5em;
+}
+
+#prop {
+    color: white;
+    font-size: 1.3em;
+    width: 90vw;
+    text-align: center;
+}
+
+div#register {
+    width: 80%;
+    font-size: 1em;
+    display: grid;
+    margin-top: 250px;
+    
+    
+}
+
+#register > div {
+    margin: 5px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+    
+}
+
+#insc {
+    color: white;
+    background-color: var(--cor0);
+    
+    
+    
+}
+
+#phone {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#phone > i {
+    position: absolute;
+    left: 0;
+    font-size: 1.5em;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#phone > p  {
+    width: 80%;
+}
+
+#google {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#google > i {
+    position: absolute;
+    left: 0;
+    font-size: 1.5em;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#google > p  {
+    width: 80%;
+}
+
+#facebook {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#facebook > i {
+    position: absolute;
+    left: 0;
+    font-size: 1.5em;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#facebook > p  {
+    width: 80%;
+}
+
+#enter {
+    color: white;
+    
+}
+
+#enter > p {
+    font-size: 1.5em;
+}
+
+#popbox {
+    background-color: rgba(0, 0, 0, 0.859);
+    border: 1px solid white;
+    width: 300px;
+    padding:30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    cursor: alias;
+    display: none;
+}   
+
+#popbox > i {
+    color: var(--cor0);
+    font-size: 2.5em;
+    position: fixed;
+    margin-top: -30px;
+    margin-left: 80%;
+}
+
+#popbox > p {
+    color: white;
+    font-size: 1.5em;
+
+}
