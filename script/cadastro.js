@@ -25,7 +25,7 @@ const dragMe = document.getElementById("popbox");
 
     function aviso() {
         dragMe.style.display = 'block'
-        dragMe.style.transform = "translate(0, 0)";
+        
     }
 
 
